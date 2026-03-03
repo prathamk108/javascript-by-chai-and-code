@@ -34,4 +34,3 @@ console.log(typeof temperature);
 let score;
 console.log(score);
 console.log(typeof score);
-
