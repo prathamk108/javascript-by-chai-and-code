@@ -18,13 +18,52 @@ In this we study that there are two types of process :
 
 Difference between Stack and Heap
 
-|------------------------|STACK  |HEAP     |
+|Points of difference    |STACK  |HEAP     |
 |------------------------|-------|---------|
 |style of data storing   |copying|reference|
-|------------------------|-------|---------|
-|updates the riginal data|NO     |YES      |
+|updates the original data|NO     |YES      |
 
 
 Call By Reference : WHEN I AM CHANGING THE AGE OF USERTWO AND PRINTING THE VALUE OF USERONE HOW THE VALUE OF USERONE IS CHANGING THIS IS CALLED CALL BY REFERENCE.
 
 # Video 11: Strings
+[This is the code to strings.](/string.js)
+
+Strings are primitive datatypes.
+
+To learn string the best is to learn string methods the best method are on MDN REFERENCE.  
+
+Some Methods are:  
+1. [toUpperCase().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase "MDN REFERENCE")  
+2. [toLowerCase().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase "MDN REFERENCE")  
+3. [slice().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sice "MDN REFERENCE")  
+4. [split().](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split "MDN REFERENCE")  
+
+# Video 12: Numbers and Maths
+[This is the code to Numbers and Maths](./number_maths.js)   
+
+In this video we learn about function of number and maths.  
+
+Some important functions are:  
+1. Math.random()  
+2. Math.round(number_to_be_rounded)
+3. Math.floor(number)  
+4. Math.ceil(number)  
+
+I WANT A RANDOM NUMBER BETWEEN 10-20;
+
+    - javascript
+        const min = 10; 
+        const max = 20;
+        console.log(Math.round(Math.random()*(max-min+1)+min));
+
+
+# Number Guessing Game (Project 1):
+[This is Game Code.](/project_1.js)  
+
+In this game user has to guess a number between 1-100. We use the following:
+- In this game we use number property like 
+    - Math.random()
+    - Math.round()
+- Also we use  " === " to compare userNumber and computerNumber.
+    - " === " is used not " == " to compare both nunmber and type.
