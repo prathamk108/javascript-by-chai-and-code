@@ -67,3 +67,24 @@ In this game user has to guess a number between 1-100. We use the following:
     - Math.round()
 - Also we use  " === " to compare userNumber and computerNumber.
     - " === " is used not " == " to compare both nunmber and type.
+
+<h1>Video 14 : Arrays and Array Methods</h1>  
+
+[This is array code.](./arrays.js)
+
+<p>In this video we learnt about syntax of array and some methods of arrays.</p>
+
+<h2>What are arrays?</h2>
+<p>Array are nothing but non primitive datatypes which are used to structure/stre a data in organised manner.  
+
+<b>Array are shallow copies that if you make two arrays equal to each other and you change one of the two array other will be changed automatically this is very similar to CALL BY REFERNCE.</b></p>
+
+<h2>ARRAY METHODS</h2>
+<p>Some important array methods are:  
+
+1. indexof()
+2. push()
+3. pop()
+4. slice()
+5. splice() 
+</p>
