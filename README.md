@@ -88,3 +88,28 @@ In this game user has to guess a number between 1-100. We use the following:
 4. slice()
 5. splice() 
 </p>
+
+
+<h1>Something Important for Beginners</h1>
+<p>When i was practicing js on my vs code app i was facing some problem i.e. <b>i was not able to use prompt feature on vs node so i found it difficult to take input. </b></p>
+So while browsing the solution to it i found that i can download a package to make a prompt feature.
+<h3>SOLUTION:</h3>
+
+<b>STEP 1: </b>  
+
+1. Open PowerShell on your laptop and type `Set-ExecutionPolicy RemoteSigned` to give vs code permission to download packages.
+2. TYPE `Y`.
+
+<b>STEP 2: </b>  
+1. Open Terminal in your vs code and type `npm install prompt-sync`.
+
+<b>STEP 3: </b>  
+1. Write this code in workspace/codespace
+```
+javascript
+    const prompt = require("prompt-sync");
+
+    let userNumber = prompt("enter your number : ");
+    console.log(userNumber);
+```
+<b>Hence you are ready to code and take input in vs code.
