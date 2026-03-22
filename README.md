@@ -107,7 +107,7 @@ So while browsing the solution to it i found that i can download a package to ma
 1. Write this code in workspace/codespace
 ```
 javascript
-    const prompt = require("prompt-sync");
+    const prompt = require("prompt-sync")();
 
     let userNumber = prompt("enter your number : ");
     console.log(userNumber);
