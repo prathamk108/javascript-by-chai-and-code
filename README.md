@@ -112,4 +112,34 @@ javascript
     let userNumber = prompt("enter your number : ");
     console.log(userNumber);
 ```
-<b>Hence you are ready to code and take input in vs code.
+<b>Hence you are ready to code and take input in vs code.</b>
+
+<h1> Video 16 : OBJECTS</h1>
+[this is code to objects] (./object.js) 
+
+<h3><b>What are objects?</b></h3>
+
+<p>
+it is a way to organise data.<br>
+
+Objects in javascript are of two types: <br>
+1. Literals, 
+2. Constructor.
+
+In this video we will talk about literals.<br>
+
+<b>Points to Rememmber : When we make an object through literals then the object is singleton.</b>
+</p>
+
+Two ways to print the elements of the objects: 
+1. 1st way to print thr elements of the objects `console.log(studentDetails.rollNumber);`
+2. <b>2nd way to print the elements of the object(Preferred and correct way)
+ `console.log(studentDetails["subsection"]);`</b> 
+
+ <p>Why 2nd way is preferred because injavascript the object are treated as string so best way is to access it as strings.</p>
+
+ <h2>Object Methods</h2>
+ <p>
+ 1. hasOwnProperty().<br>
+ 2. freeze().
+ </p>
