@@ -6,7 +6,7 @@ const studentDetails = {
     subsection : "1A52",
     lastAttended : ["MONDAY", "TUESDAY"],
 }
-// 1st way to print thr elements of the objects
+// // 1st way to print thr elements of the objects
 console.log(studentDetails.rollNumber);
 
 // 2nd way to print the elements of the object
@@ -35,3 +35,15 @@ Object.freeze(studentDetails);
 studentDetails.pool = "C";
 
 console.log(studentDetails["pool"]);
+
+
+//SHORT FORM TO WRITE AN OBJECT IS:
+
+console.log(studentDetails.rollNumber);
+
+const {pool} = studentDetails ;
+console.log(pool);
+
+const { pool: batch} = studentDetails;
+console.log(pool);
+console.log(batch)

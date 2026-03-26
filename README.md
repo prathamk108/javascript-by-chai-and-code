@@ -143,3 +143,21 @@ Two ways to print the elements of the objects:
  1. hasOwnProperty().<br>
  2. freeze().
  </p>
+
+ <h1> Video 18: Object De-Structuring and JSON</h1><br>
+
+[FOR REFERENCE CLICK HERE.](./object.js)
+
+ <p>in this video we learn how to <b>de-structure an object</b>.</p>
+ It is very difficult and impractical to write<br> 
+
+ `console.log(studentDetails.rollNumber)`<br>
+
+ again and again so as an easy transformation we write it once as this<br>
+ `const {rollNumber} = studentDetails`<br>
+ and now we can print by only writing 
+ `rollNumber`.<br>
+  
+ Also if i want short name for rollNumber i can write it as<br>
+ `const {rollNumber: roll} = studentDetails`<br>
+ and now i can just write roll for printing roll number. 
