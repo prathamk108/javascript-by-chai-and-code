@@ -161,3 +161,47 @@ Two ways to print the elements of the objects:
  Also if i want short name for rollNumber i can write it as<br>
  `const {rollNumber: roll} = studentDetails`<br>
  and now i can just write roll for printing roll number. 
+
+ <h1>Video 19: Functions</h1>
+ [CLICK HERE FOR REFERENCE.](./functins/01_function.js)
+
+ <b><h3>What are Functions??</h3>
+ Function are package which once defined can be used anywhere in the program.</b>
+
+<b><H3>How can you use a Function?? </h3>
+It involves three steps that is  
+
+1. Function Definition: In this we give the function what it has to perform.
+
+2. Function Call: In this we instruct a function to execute a block  of code.
+
+3. Function Execution: In this the code finally executes. </b>
+
+<h3>Some terminologies used in Functions(FOR INTERVIEW PURPOSE)</h3>
+1. Parameters: are variables defined in function definition step.
+2. Arguments: are the constants defined in function calling steps.
+
+```
+function addTwoNumber(a, b){     Here a and b are parameters
+    return a+b;
+}
+addTwoNumber(1, 6)               1 and 6 are arguments.
+console.log(addTwoNumber(1, 6))
+```
+
+<H1>FUNCTION: TASK 1</H1>
+<p><b>TASK STATEMENT :</b> In this task we have to make a simple message that a user should see after logging In.  
+(GIVE ANY MESSAGE OF YOUR CHOICE. )</p>
+
+[CLICK FOR SOLUTION.](./functins/task_01.js)<br>
+
+<b>Reason for using `If` statement : so that when the argument is not given it will take undefined by itself so to avoid that `if` is used it will ask your name in that case.
+<br>
+Also to give default value we can define it along with the parameter.</b>
+
+
+<h1>Video 20 : Function with Array and Object.</h1>
+[CLICK FOR CODE REFERENCE.](./functins/task_02.js)
+in this video we learnt about object and array handling with functions. <br>
+We were building a shopping cart in this as we donot know number of thing in cart before the shopping so we use `REST PARAMETER`
+  
