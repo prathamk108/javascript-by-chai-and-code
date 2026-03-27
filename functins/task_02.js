@@ -12,7 +12,7 @@ function shoppingCart(...price) {
 console.log(shoppingCart(25, 35, 50));
 
 
-//IMPRTANT NTE DETERMINING THE VALUE OF PRICE IN THE BELOW STATEMENT 
+//IMPORTANT NOTE DETERMINING THE VALUE OF PRICE IN THE BELOW STATEMENT 
 function shoppingCart(num1, num2, ...price) {
     return price;
 }

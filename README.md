@@ -115,6 +115,7 @@ javascript
 <b>Hence you are ready to code and take input in vs code.</b>
 
 <h1> Video 16 : OBJECTS</h1>
+
 [this is code to objects] (./object.js) 
 
 <h3><b>What are objects?</b></h3>
@@ -163,7 +164,8 @@ Two ways to print the elements of the objects:
  and now i can just write roll for printing roll number. 
 
  <h1>Video 19: Functions</h1>
- [CLICK HERE FOR REFERENCE.](./functins/01_function.js)
+
+ [CLICK HERE FOR REFERENCE.](./functins/task_01.js)
 
  <b><h3>What are Functions??</h3>
  Function are package which once defined can be used anywhere in the program.</b>
@@ -201,7 +203,22 @@ Also to give default value we can define it along with the parameter.</b>
 
 
 <h1>Video 20 : Function with Array and Object.</h1>
-[CLICK FOR CODE REFERENCE.](./functins/task_02.js)
-in this video we learnt about object and array handling with functions. <br>
+
+[CLICK FOR SOLUTION.](./functins/task_02.js) <br>
+In this video we learnt about object and array handling with functions. <br>
 We were building a shopping cart in this as we donot know number of thing in cart before the shopping so we use `REST PARAMETER`
   
+<h1>Video 21: Scope</h1>
+
+[THIS IS CODE.](./functins/02_scope.js)
+
+
+<H3>TYPE OF SCOPE </H3>
+<p>There are two type of scope:<br>
+
+1. Global Scope : are the scope which are available throghout the program.<br>
+
+2. Local Scope: are the scope which are available only within a particular function/object.
+ </p>
+
+ <h1>Video 21: Scope Level and Hoisting</h1>
